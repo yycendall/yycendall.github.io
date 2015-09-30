@@ -190,7 +190,7 @@
   
     <div class="article-meta">
       <a href="/2015/09/30/基于hexo快速搭建免费个人博客/" class="article-date">
-  	<time datetime="2015-09-30T10:05:37.000Z" itemprop="datePublished">2015-09-30</time>
+  	<time datetime="2015-09-30T10:20:05.000Z" itemprop="datePublished">2015-09-30</time>
 </a>
     </div>
   
@@ -199,10 +199,20 @@
       <input type="hidden" class="isFancy" />
     
     
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/09/30/基于hexo快速搭建免费个人博客/">基于hexo快速搭建免费个人博客</a>
+    </h1>
+  
+
+      </header>
+      
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#基于hexo快速搭建免费个人博客</p>
-<h2 id="为什么要搭建个人博客">为什么要搭建个人博客</h2><ul>
+        <h2 id="为什么要搭建个人博客">为什么要搭建个人博客</h2><ul>
 <li>写博客/输出能更好的学</li>
 <li>积累，避免实用的知识如过眼云烟般流逝</li>
 <li>大部分人的工作都非常单一，容易越来越狭窄，主动给自己加维，增大可能性<ul>
@@ -276,7 +286,90 @@ npm <span class="keyword">install</span> hexo-generator-tag <span class="comment
 npm <span class="keyword">install</span> hexo-<span class="keyword">server</span> <span class="comment">--save</span>
 npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save        </span></span>
 </code></pre></li>
-<li><p>启动hexo,访问<figure class="highlight"><figcaption><span>did it ,中央电视台发来贺电~_~</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#10;&#9;&#9;hexo server&#10;&#10;&#10;* Hexo&#24120;&#29992;&#31616;&#20889;&#21629;&#20196;&#9;&#9;&#10;&#10;&#9;&#9;hexo n #new&#10;&#9;&#9;hexo g #generate&#10;&#9;&#9;hexo s #server&#10;&#9;&#9;&#10;## &#23558;hexo&#21338;&#23458;&#37096;&#32626;&#21040;github ##&#10;* &#30331;&#24405;github &#10;* &#21019;&#24314; New repository&#65292;**name&#24517;&#39035;&#19982;&#29992;&#25143;&#21517;&#20445;&#25345;&#19968;&#33268;**&#10;* &#26412;&#22320;&#25191;&#34892;&#22914;&#19979;&#21629;&#20196;&#65292;&#20197;&#29983;&#25104;&#38745;&#24577;&#25991;&#20214;&#21040;**public**&#30446;&#24405;&#20013;&#10;&#10;&#9;&#9;hexo g&#10;&#9;&#9;&#10;* &#22312;hexo&#20013;&#28155;&#21152;/&#20462;&#25913;github&#37197;&#32622;&#65292;&#20197;&#20415;&#23558;hexo&#25991;&#20214;&#21516;&#27493;&#21040;github&#20013;&#10;&#10;&#9;&#9;deploy:&#10;&#9;&#9;  type: git&#10;&#9;&#9;  repository:  git@github.com:yycendall/yycendall.github.io.git&#10;&#9;&#9;  branch: master&#10;&#9;&#9;&#10;* &#26412;&#22320;&#25191;&#34892;&#22914;&#19979;&#21629;&#20196;&#65292;&#23558;&#26412;&#22320;&#25991;&#20214;&#21516;&#27493;&#21040;github&#20013;&#10;&#10;&#9;&#9;hexo d   #&#27880;&#24847;&#65292;&#26412;&#22320;&#30340;ssh&#23494;&#38053;&#38656;&#35201;&#25552;&#21069;&#25918;&#21040;github&#20010;&#20154;&#36134;&#25143;&#20013;&#65292;&#21542;&#21017;&#65292;&#27809;&#19978;&#20256;&#26435;&#38480;&#65292;&#35831;&#33258;&#34892;google&#10;&#9;&#9;&#10;* &#35775;&#38382;&#22914;&#19979;github&#22320;&#22336;&#65292;&#24685;&#21916;&#65292;&#20320;&#21448;&#25104;&#21151;&#20102;&#65292;&#20013;&#22830;&#30005;&#35270;&#21488;&#21457;&#26469;&#36154;&#30005; ~_~&#10;&#10;&#9;&#9;yycendall.github.io # &#20854;&#20013;yycendall&#26159;&#27493;&#39588;2&#20013;&#25552;&#21040;&#30340;name&#10;&#10;&#9;&#9;&#10;## &#30003;&#35831;&#22495;&#21517;&#21450;&#26144;&#23556; ##&#10;* &#19975;&#32593;&#30003;&#35831;&#22495;&#21517;,&#22914;&#21338;&#20027;&#30003;&#35831;&#30340;&#22495;&#21517;&#26159; iopenthink.com&#10;* &#25191;&#34892;&#22914;&#19979;&#21629;&#20196;&#20197;&#24471;&#21040;&#20320;github&#30340;ip&#10;&#10;&#9;&#9;ping yycendall.github.com #yycendall&#26159;&#20320;&#30340;github&#36134;&#25143;&#65292;&#20363;&#65292;&#32467;&#26524;&#26159;103.245.222.133&#10;* &#22312;&#19975;&#32593;&#28155;&#21152;&#22495;&#21517;&#35299;&#26512;&#65292;&#21363;&#23558;&#9;iopenthink.com&#35299;&#26512;&#21040;103.245.222.133&#10;&#10;&#9;&#20027;&#26426;&#35760;&#24405;| &#35760;&#24405;&#31867;&#22411;  |&#32447;&#36335;&#31867;&#22411;  | &#35760;&#24405;&#20540;&#9;|MX&#20248;&#20808;&#32423;|TTL|&#10;&#9;-------|---------|---------|----&#9;&#9;|---|---|&#10;&#9;@&#9;&#9;|CNAME&#9;&#9;|&#40664;&#35748;&#9;&#9;|yycendall.github.io|-|10&#10;&#9;www&#9;&#9;|CNAME&#9;&#9;|&#40664;&#35748;&#9;&#9;|yycendall.github.io|-|10&#10;&#9;&#10;* &#22312;**```themes/yilia/source```**&#30446;&#24405;&#20013;&#28155;&#21152;CNAME&#25991;&#20214;&#65292;**&#27880;&#24847;&#36335;&#24452;**&#65292;hexo g&#29983;&#25104;&#38745;&#24577;&#25991;&#20214;&#26102;&#65292;&#20250;&#23558;CNAME&#25991;&#20214;&#25171;&#21253;&#21040;public&#20013;&#10;&#10;&#9;&#9;iopenthink.com #&#21363;&#20320;&#22312;&#19975;&#32593;&#30003;&#35831;&#30340;&#22495;&#21517;&#10;* &#25191;&#34892;&#22914;&#19979;&#21629;&#20196;&#65292;&#20197;&#37325;&#26032;&#29983;&#25104;hexo&#38745;&#24577;&#25991;&#20214;&#65292;&#21450;&#19978;&#20256;&#21040;github&#65292;&#27880;&#24847;&#65292;&#19968;&#23450;&#35201;&#25191;&#34892;&#10;&#10;&#9;&#9;hexo g #&#29983;&#25104;&#38745;&#24577;&#25991;&#20214;&#10;&#9;&#9;hexo d #&#19978;&#20256;&#33267;github&#10;* &#35775;&#38382;iopenthink.com&#65292;&#23558;&#36339;&#36716;&#21040;&#20320;&#30340;hexo&#39029;&#38754;&#65292;&#24685;&#21916;&#65292;&#20320;&#20877;&#19968;&#27425;&#25104;&#21151;&#20102;&#65292;&#20013;&#22830;&#30005;&#35270;&#21488;&#21457;&#26469;&#36154;&#30005; ~_~&#10;&#10;&#10;## &#33258;&#23450;&#20041;hexo&#20010;&#24615;&#21270;&#20027;&#39064;&#10;* hexo&#30340;&#20010;&#24615;&#21270;&#20027;&#39064;&#38750;&#24120;&#22810;&#65292;&#21338;&#20027;&#36873;&#25321;&#20102;yilia&#65292;&#19979;&#38754;&#21681;&#20204;&#30452;&#20837;&#20027;&#39064;&#65292;&#24320;&#22987;&#23433;&#35013;&#10;&#10;&#9;&#9;git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia&#10;* &#23433;&#35013;&#23436;&#27605;&#21518;&#65292;&#24320;&#22987;&#37197;&#32622;&#12290;&#22312;&#26681;&#30446;&#24405;&#19979;&#30340;_config.yml&#20013;&#20462;&#25913;&#22914;&#19979;&#37197;&#32622;&#65292;&#20195;&#34920;&#20351;&#29992;yilia&#10;&#10;&#9;&#9;theme: yilia&#10;&#9;&#9;&#10;* &#35775;&#38382;&#22914;&#19979;&#22320;&#22336;&#26597;&#30475;&#25928;&#26524;&#65292;&#24685;&#21916;&#65292;&#20320;&#21448;&#25104;&#21151;&#20102;&#65292;&#20013;&#22830;&#30005;&#35270;&#21488;&#21457;&#26469;&#36154;&#30005; ~_~&#10;&#10;&#9;&#9;localhost:4000&#10;&#9;&#9;&#10;&#10;## &#24320;&#22987;&#20889;&#21338;&#23458;&#65281;&#10;* &#25191;&#34892;&#22914;&#19979;&#21629;&#20196;&#65292;&#36890;&#36807;&#27169;&#26495;&#29983;&#25104;&#31354;&#30340;&#21338;&#23458;&#25991;&#20214;&#10;&#10;&#9;&#9;hexo n  test1&#10;&#9;&#9;INFO  Created: ~/iopenthink/source/_posts/test1.md&#10;&#9;&#9;&#10;* &#29992;markdown&#32534;&#36753;test1.md&#65292;&#22914;macdown&#10;* &#29983;&#25104;hexo&#38745;&#24577;&#25991;&#20214;&#65292;&#24182;&#19978;&#20256;&#33267;github,**&#27880;&#24847;**&#65292;&#19968;&#23450;&#35201;&#25191;&#34892;&#22914;&#19979;&#21629;&#20196;&#10;&#10;&#9;&#9;hexo g&#10;&#9;&#9;hexo d&#10;* &#35775;&#38382;&#20320;&#30340;&#22495;&#21517;&#65292;&#24685;&#21916;&#65292;&#20877;&#27425;&#25104;&#21151;&#65292;&#20013;&#22830;&#30005;&#35270;&#21488;&#21457;&#26469;&#36154;&#30005; ~_~&#10;&#10;&#9;&#9;iopenthink.com&#10;&#10;&#10;## &#23433;&#35013;&#22810;&#35828;&#35780;&#35770; ##&#10;* &#21069;&#25991;&#25552;&#21040;hexo&#26159;&#38745;&#24577;&#21338;&#23458;&#65292;&#33509;&#25105;&#20204;&#24076;&#26395;&#28155;&#21152;&#35780;&#35770;&#21151;&#33021;&#65292;&#22914;&#20309;&#23454;&#29616;&#21602;&#65311;&#10;* yilia&#33258;&#24102;&#20102;**&#22810;&#35828;**&#35780;&#35770;&#21151;&#33021;&#65292;&#21487;&#20197;&#30452;&#25509;&#20351;&#29992;&#65292;&#20294;&#38656;&#35201;&#20570;&#19968;&#20123;&#37197;&#32622;&#65292;&#21542;&#21017;&#65292;&#40664;&#35748;&#30340;&#37197;&#32622;&#65292;&#33258;&#24102;&#19968;&#22823;&#22534;&#27809;&#29992;&#30340;&#35780;&#35770;&#10;* &#22312;&#22810;&#35828;&#27880;&#20876;&#36134;&#25143;&#65292;**&#27880;&#24847;**&#65292;&#19968;&#23450;&#35201;&#27880;&#20876;&#26032;&#36134;&#25143;&#10;&#10;&#9;&#9;http://duoshuo.com/&#10;* &#20462;&#25913;```themes/yilia/_config.yml``` **&#27880;&#24847;_config.xml&#36335;&#24452;**&#10;&#10;&#9;&#9;duoshuo: true&#10;&#9;&#9;duoshuo_shortname: iopenthink #iopenthink&#26159;&#20320;&#22810;&#35828;&#27880;&#20876;&#30340;name&#10;&#10;* &#20462;&#25913;```&#26681;&#36335;&#24452;&#19979;_config.xml</span><br></pre></td></tr></table></figure></p>
+<li><p>启动hexo,访问<code>localhost:4000</code>查看效果，恭喜，you did it ,中央电视台发来贺电~_~</p>
+<pre><code>hexo <span class="keyword">server</span>
+</code></pre></li>
+</ul>
+<ul>
+<li><p>Hexo常用简写命令        </p>
+<pre><code><span class="title">hexo</span> n <span class="comment">#new</span>
+hexo g <span class="comment">#generate</span>
+hexo s <span class="comment">#server</span>
+</code></pre></li>
+</ul>
+<h2 id="将hexo博客部署到github">将hexo博客部署到github</h2><ul>
+<li>登录github </li>
+<li>创建 New repository，<strong>name必须与用户名保持一致</strong></li>
+<li><p>本地执行如下命令，以生成静态文件到<strong>public</strong>目录中</p>
+<pre><code><span class="title">hexo</span> g
+</code></pre></li>
+<li><p>在hexo中添加/修改github配置，以便将hexo文件同步到github中</p>
+<pre><code><span class="attribute">deploy</span>:
+  <span class="attribute">type</span>: git
+  <span class="attribute">repository</span>:  git<span class="variable">@github</span>.<span class="attribute">com</span>:yycendall/yycendall.github.io.git
+  <span class="attribute">branch</span>: master
+</code></pre></li>
+<li><p>本地执行如下命令，将本地文件同步到github中</p>
+<pre><code><span class="title">hexo</span> d   <span class="comment">#注意，本地的ssh密钥需要提前放到github个人账户中，否则，没上传权限，请自行google</span>
+</code></pre></li>
+<li><p>访问如下github地址，恭喜，你又成功了，中央电视台发来贺电 ~_~</p>
+<pre><code>yycendall.github.io <span class="preprocessor"># 其中yycendall是步骤<span class="number">2</span>中提到的name</span>
+</code></pre></li>
+</ul>
+<h2 id="申请域名及映射">申请域名及映射</h2><ul>
+<li>万网申请域名,如博主申请的域名是 iopenthink.com</li>
+<li><p>执行如下命令以得到你github的ip</p>
+<pre><code><span class="tag">ping</span> <span class="tag">yycendall</span><span class="class">.github</span><span class="class">.com</span> <span class="id">#yycendall</span>是你的<span class="tag">github</span>账户，例，结果是103<span class="class">.245</span><span class="class">.222</span><span class="class">.133</span>
+</code></pre></li>
+<li><p>在万网添加域名解析，即将    iopenthink.com解析到103.245.222.133</p>
+<p>  主机记录| 记录类型  |线路类型  | 记录值    |MX优先级|TTL|<br>  ——-|———|———|—-        |—|—|<br>  @        |CNAME        |默认        |yycendall.github.io|-|10<br>  www        |CNAME        |默认        |yycendall.github.io|-|10</p>
+</li>
+<li><p>在<strong><code>themes/yilia/source</code></strong>目录中添加CNAME文件，<strong>注意路径</strong>，hexo g生成静态文件时，会将CNAME文件打包到public中</p>
+<pre><code>iopenthink<span class="class">.com</span> #即你在万网申请的域名
+</code></pre></li>
+<li><p>执行如下命令，以重新生成hexo静态文件，及上传到github，注意，一定要执行</p>
+<pre><code><span class="title">hexo</span> g <span class="comment">#生成静态文件</span>
+hexo d <span class="comment">#上传至github</span>
+</code></pre></li>
+<li>访问iopenthink.com，将跳转到你的hexo页面，恭喜，你再一次成功了，中央电视台发来贺电 ~_~</li>
+</ul>
+<h2 id="自定义hexo个性化主题">自定义hexo个性化主题</h2><ul>
+<li><p>hexo的个性化主题非常多，博主选择了yilia，下面咱们直入主题，开始安装</p>
+<pre><code>git clone <span class="symbol">https:</span>/<span class="regexp">/github.com/litten</span><span class="regexp">/hexo-theme-yilia.git themes/yilia</span>
+</code></pre></li>
+<li><p>安装完毕后，开始配置。在根目录下的_config.yml中修改如下配置，代表使用yilia</p>
+<pre><code><span class="attribute">theme</span>: <span class="string">yilia</span>
+</code></pre></li>
+<li><p>访问如下地址查看效果，恭喜，你又成功了，中央电视台发来贺电 ~_~</p>
+<pre><code><span class="label">localhost:</span><span class="number">4000</span>
+</code></pre></li>
+</ul>
+<h2 id="开始写博客！">开始写博客！</h2><ul>
+<li><p>执行如下命令，通过模板生成空的博客文件</p>
+<pre><code>hexo n  <span class="built_in">test</span>1
+INFO  Created: ~/iopenthink/<span class="built_in">source</span>/_posts/<span class="built_in">test</span>1.md
+</code></pre></li>
+<li><p>用markdown编辑test1.md，如macdown</p>
+</li>
+<li><p>生成hexo静态文件，并上传至github,<strong>注意</strong>，一定要执行如下命令</p>
+<pre><code>hexo <span class="keyword">g</span>
+hexo <span class="literal">d</span>
+</code></pre></li>
+<li><p>访问你的域名，恭喜，再次成功，中央电视台发来贺电 ~_~</p>
+<pre><code><span class="tag">iopenthink</span><span class="class">.com</span>
+</code></pre></li>
+</ul>
+<h2 id="安装多说评论">安装多说评论</h2><ul>
+<li>前文提到hexo是静态博客，若我们希望添加评论功能，如何实现呢？</li>
+<li>yilia自带了<strong>多说</strong>评论功能，可以直接使用，但需要做一些配置，否则，默认的配置，自带一大堆没用的评论</li>
+<li><p>在多说注册账户，<strong>注意</strong>，一定要注册新账户</p>
+<pre><code><span class="string">http:</span><span class="comment">//duoshuo.com/</span>
+</code></pre></li>
+<li><p>修改<code>themes/yilia/_config.yml</code> <strong>注意_config.xml路径</strong></p>
+<pre><code><span class="attribute">duoshuo</span>: <span class="string">true</span>
+<span class="attribute">duoshuo_shortname</span>: <span class="string">iopenthink #iopenthink是你多说注册的name</span>
+</code></pre></li>
+<li><p>修改<code>根路径下_config.xml</code></p>
 <pre><code><span class="string">url:</span> <span class="string">http:</span><span class="comment">//iopenthink.com # 保证评论转发到微博第三方时自带的链接正常</span>
 </code></pre></li>
 <li><p>通过修改后的_config.xml重新生成静态文件</p>
@@ -294,6 +387,55 @@ hexo <span class="literal">d</span>
 </ul>
 <p>以上</p>
 
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+  
+    <article id="post-test2" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/09/30/test2/" class="article-date">
+  	<time datetime="2015-09-30T10:15:33.000Z" itemprop="datePublished">2015-09-30</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/09/30/test2/">test2</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
       
     </div>
     
